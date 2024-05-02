@@ -5,3 +5,35 @@
 }
 
 /* Start coding here */
+html {
+  --branding: #ff7f50;
+  --secondary: cornsilk;
+  --highlight: #d2691e;
+  --muted: #a9a9a9;
+  --m-1: 1px;
+  --m-2: 5px;
+  --m-3: 10px;
+  --m-4: 15px;
+  --m-5: 20px;
+  --p-1: 1px;
+  --p-2: 5px;
+  --p-3: 10px;
+  --p-4: 15px;
+  --p-5: 20px;
+  --small: 12px;
+  --medium: 16px;
+  --large: 20px;
+  --extra-large: 30px;
+  --double-extra-large: 50px;
+  --triple-extra-large: 100px;
+}
+
+.introduction {
+  background-color: var(--secondary);
+  padding: var(--p-5);
+}
+
+.introduction h1 {
+  color: var(--branding);
+  font-size: var(--triple-extra-large);
+}
